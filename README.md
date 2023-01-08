@@ -3,7 +3,7 @@
 #packages and libraries
 Scikit learn and Graphiz in python 3
 
-This project implements classification methods to predict student performance.
+This project implements classification methods to predict student performance in Java using their coding assignments.
 
 
 #pre-processing
@@ -29,6 +29,7 @@ errors2.csv
 To change the data set: change parameters in lines where the file is opened and the csv is read.
 
 - Decision Tree:
+
       1.	DT.py
       Tests the performance of the trees on our data set. Considers: Cross-validation, different tree depths and different criteria.
 
@@ -37,6 +38,7 @@ To change the data set: change parameters in lines where the file is opened and 
 
 
 - Random Forest
+
       3.	Rf.py
       Tests the performance of random forest. Considers: Cross-validation, different number of trees in the forest
 
@@ -44,6 +46,7 @@ To change the data set: change parameters in lines where the file is opened and 
       Tests the performance of the random forests on our data set with feature selection.
 
 - Naïve Bayes
+
       5.	Nb.py
         Implements Naïve bayes
 
@@ -55,7 +58,9 @@ To change the data set: change parameters in lines where the file is opened and 
 The hyperparameters can be chosen by ruuning gridSearch.py:
       This program tests the performance of different hyperparameters of the neural network (they are passed as parameters) and returns the best ones.
       Different parameters can to be passed as parameters in lines 25-29.
+      
       7.	NN.py
         Implements Neural network
+        
       8. NNfs.py
         The same Neural network from 6, but with feature selection.
