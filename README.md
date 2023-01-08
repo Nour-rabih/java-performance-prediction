@@ -1,15 +1,18 @@
 
 
 #packages and libraries
+
 Scikit learn and Graphiz in python 3
 
 This project implements classification methods to predict student performance in Java using their coding assignments.
 
 
 #pre-processing
+
 PMD analysis reports are inputted into the preprocessing code to be processed and ready for the classification methods.
 
 PMD analysis report files:
+
 pmdAnalysis_20_21_1.txt
 pmdAnalysis_20_21_2.txt
 
@@ -20,6 +23,7 @@ the code will write a csv file with the data.
 to change the input file just change the file name on line 20.
 
 Output of preprocessing:
+
 errors.csv
 errors2.csv
 
@@ -56,6 +60,7 @@ To change the data set: change parameters in lines where the file is opened and 
 - Neural network
 
 The hyperparameters can be chosen by ruuning gridSearch.py:
+
       This program tests the performance of different hyperparameters of the neural network (they are passed as parameters) and returns the best ones.
       Different parameters can to be passed as parameters in lines 25-29.
       
